@@ -1507,6 +1507,27 @@ p {
     }
 }
 
+/*--------------------------------------------------------------
+# Our trusted Partners
+--------------------------------------------------------------*/
+
+.partners {
+    padding-bottom: 20px;
+}
+
+.partners .container {
+    box-shadow: #0b212d;
+    background-color: inherit;
+}
+
+.partners .trust {
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all;
+    margin-bottom: 30px;
+}
+
 
 /*===========================
     Features section 
@@ -1628,155 +1649,6 @@ p {
         font-size: 37px;
     }
 }
-
-.countdown-section {
-    position: relative;
-    background-color: #13bb43;
-}
-
-.countdown-section .countdown-img {
-    margin-left: -120px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .countdown-section .countdown-img {
-        margin-left: 0px;
-        margin-bottom: 30px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .countdown-section .countdown-img {
-        margin-left: 0px;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    .countdown-section .countdown-img {
-        margin-left: 0px;
-        margin-bottom: 30px;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .countdown-section .countdown-img img {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .countdown-section .countdown-img img {
-        width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    .countdown-section .countdown-img img {
-        width: 100%;
-    }
-}
-
-.countdown-section ul#countdown-example {
-    margin-bottom: 50px;
-}
-
-.countdown-section ul#countdown-example li {
-    display: inline-block;
-    margin: 0;
-    margin-right: 50px;
-    text-align: center;
-}
-
-@media (max-width: 767px) {
-    .countdown-section ul#countdown-example li {
-        margin-right: 15px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .countdown-section ul#countdown-example li {
-        margin-right: 25px;
-    }
-}
-
-.countdown-section ul#countdown-example li:last-child {
-    margin-right: 0;
-}
-
-.countdown-section ul#countdown-example li span {
-    font-size: 45px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.5;
-    display: block;
-}
-
-@media (max-width: 767px) {
-    .countdown-section ul#countdown-example li span {
-        font-size: 25px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .countdown-section ul#countdown-example li span {
-        font-size: 35px;
-    }
-}
-
-.countdown-section ul#countdown-example li p {
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 0;
-}
-
-@media (max-width: 767px) {
-    .countdown-section ul#countdown-example li p {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .countdown-section ul#countdown-example li p {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .countdown-section .countdown-content h2 {
-        font-size: 38px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .countdown-section .countdown-content h2 {
-        font-size: 35px;
-    }
-}
-
-.countdown-section .countdown-content p {
-    padding-right: 20px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .countdown-section .countdown-content p {
-        padding-right: 0;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .countdown-section .countdown-content p {
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .countdown-section .countdown-content p {
-        padding-right: 0;
-    }
-}
-
 
 /*===========================
     Contact section
